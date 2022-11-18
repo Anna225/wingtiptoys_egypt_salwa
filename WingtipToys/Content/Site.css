@@ -1,0 +1,76 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    font-family: "OpenSans", sans-serif;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+section.content {
+    padding-top: 60px !important;
+}
+
+.wrapper {
+    padding-left: 0 !important;
+}
+
+i.ion {
+    color: white;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+.card {
+    padding: 20px 10px;
+}
+
+.customer-list-row {
+    margin-bottom: 6px;
+}
+.customer-list-details {
+    width: 98%;
+    margin-right: 0;
+    margin: 0 auto;
+}
+.customer-list-details h3 {
+    color: #04b10a;
+    font-weight: bold;
+}
+.list {
+    padding-top: 10px;
+    overflow-x: hidden !important;
+}
+input[type=search]::after {
+    content: "<i class='fa fa-search'></i>"
+}
+.navbar i {
+    color: white;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+}
+a.text-muted {
+    float: right;
+    top: -20px;
+    margin: -24px 8px;
+}
+input[type=search] {
+    padding-right: 20px;
+}
+
+span.customer-icon-card.set span:nth-child(2){
+    font-size: 14px;
+}
